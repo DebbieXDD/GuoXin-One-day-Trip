@@ -85,6 +85,7 @@
   <nav class="sticky top-0 z-30 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-stone-200/80 px-4 py-2.5 shadow-sm no-print">
     <div class="max-w-xl mx-auto flex items-center gap-2 overflow-x-auto no-scrollbar text-sm font-medium">
       <a href="#timeline" class="shrink-0 px-3.5 py-1.5 rounded-full bg-amber-700 text-white shadow-sm">🕒 行程時間軸</a>
+      <a href="#lunch-picker" class="shrink-0 px-3.5 py-1.5 rounded-full bg-white text-stone-700 border border-stone-200 hover:bg-amber-50">🍴 國姓午餐推薦</a>
       <a href="#coffee-picker" class="shrink-0 px-3.5 py-1.5 rounded-full bg-white text-stone-700 border border-stone-200 hover:bg-amber-50">☕ 咖啡廳三選一</a>
       <a href="#dinner-picker" class="shrink-0 px-3.5 py-1.5 rounded-full bg-white text-stone-700 border border-stone-200 hover:bg-amber-50">🍲 草屯晚餐三選一</a>
       <a href="#checklist" class="shrink-0 px-3.5 py-1.5 rounded-full bg-white text-stone-700 border border-stone-200 hover:bg-amber-50">🎒 出發清單</a>
@@ -205,43 +206,91 @@
           </div>
         </div>
 
-        <!-- Stop 4: Yuanbao Tudigong -->
-        <div class="relative pl-12">
+        <!-- Stop 4: Yuanbao Tudigong & Lunch Picker -->
+        <div id="lunch-picker" class="relative pl-12 scroll-mt-16">
           <div class="timeline-line"></div>
           <div class="absolute left-0 top-1 w-10 h-10 rounded-full bg-amber-600 text-white flex items-center justify-center text-lg shadow-sm">
             🙏
           </div>
           <div class="bg-white rounded-2xl p-4 sm:p-5 shadow-sm border border-stone-200/80">
             <div class="flex flex-wrap items-center justify-between gap-2">
-              <span class="inline-block bg-amber-600 text-white text-xs font-bold px-2.5 py-1 rounded-md">12:30 - 13:45</span>
-              <span class="text-xs font-medium text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">🅿️ 超大免費停車場</span>
+              <span class="inline-block bg-amber-600 text-white text-xs font-bold px-2.5 py-1 rounded-md">12:30 - 13:50</span>
+              <span class="text-xs font-medium text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">🅿️ 皆附專屬免費停車場</span>
             </div>
-            <h3 class="text-lg font-bold text-stone-900 mt-2">第三站：國姓「元寶土地公廟」＋午間輕食</h3>
+            <h3 class="text-lg font-bold text-stone-900 mt-2">第三站：國姓「元寶土地公廟」＋國姓午餐</h3>
             <p class="text-xs text-stone-500 mt-0.5">📍 南投縣國姓鄉南港路150號（下九份二山回投147縣道必經，完全不繞路！）</p>
 
             <div class="mt-3 space-y-2 text-sm text-stone-700 bg-stone-50 p-3 rounded-xl border border-stone-100">
               <div>🪙 <strong>參拜亮點</strong>：被天然巨大「金元寶奇石」包圍的百年伯公廟！廟埕有 <strong>108顆「石來運轉」石球</strong>、大金元寶與石蟾蜍，全家摸元寶祈福求財，長輩最喜歡！</div>
-              <div>🍱 <strong>午餐彈性安排</strong>（早上10點剛吃飽，可依飢餓程度決定）：<br/>
-                • <strong>微餓吃點心</strong>：往國姓老街買客家菜包、草仔粿或吃碗客家粄條。<br/>
-                • <strong>想吃熱炒合菜（皆附專屬停車場）</strong>：<br/>
-                  1. <strong>鄉之味-老地方餐廳</strong>（國姓中興路5號，老街口好停車，必點筍乾東坡肉、客家小炒）<br/>
-                  2. <strong>136公路客家小館</strong>（台14線中正路一段69號，去九二咖啡故事館順路、附私人停車場）
+              <div>
+                <a href="https://www.google.com/maps/search/?api=1&query=國姓元寶土地公廟" target="_blank" rel="noopener"
+                   class="mt-1.5 w-full inline-flex items-center justify-center gap-1.5 bg-amber-700 hover:bg-amber-800 text-white text-sm font-semibold py-2 px-4 rounded-xl shadow-sm transition">
+                  <span>🗺️ 導航至元寶土地公廟</span>
+                </a>
               </div>
             </div>
 
-            <div class="mt-3.5 flex flex-wrap gap-2">
-              <a href="https://www.google.com/maps/search/?api=1&query=國姓元寶土地公廟" target="_blank" rel="noopener"
-                 class="flex-1 inline-flex items-center justify-center gap-1.5 bg-amber-700 hover:bg-amber-800 text-white text-sm font-semibold py-2.5 px-4 rounded-xl shadow-sm transition">
-                <span>🗺️ 導航元寶土地公廟</span>
-              </a>
-              <a href="https://www.google.com/maps/search/?api=1&query=國姓鄉之味小吃部" target="_blank" rel="noopener"
-                 class="inline-flex items-center justify-center gap-1 bg-stone-100 hover:bg-stone-200 text-stone-700 text-sm font-medium py-2.5 px-3 rounded-xl transition">
-                <span>🍴 午餐：鄉之味</span>
-              </a>
-              <a href="https://www.google.com/maps/search/?api=1&query=國姓136公路客家小館" target="_blank" rel="noopener"
-                 class="inline-flex items-center justify-center gap-1 bg-stone-100 hover:bg-stone-200 text-stone-700 text-sm font-medium py-2.5 px-3 rounded-xl transition">
-                <span>🍴 午餐：136客家小館</span>
-              </a>
+            <!-- Interactive Lunch Tabs -->
+            <div class="mt-4 pt-3 border-t border-stone-200/80">
+              <div class="text-xs font-bold text-stone-700 mb-2">🍱 拜完土地公後的午餐選擇（點擊切換查看）：</div>
+              <div class="grid grid-cols-3 gap-1.5 bg-stone-100 p-1 rounded-xl">
+                <button onclick="selectLunch('L1')" id="lunch-tab-L1" class="lunch-tab py-2 px-2 rounded-lg text-xs sm:text-sm font-bold bg-amber-700 text-white shadow-sm transition">
+                  1. 鄉之味餐廳
+                </button>
+                <button onclick="selectLunch('L2')" id="lunch-tab-L2" class="lunch-tab py-2 px-2 rounded-lg text-xs sm:text-sm font-medium text-stone-600 hover:text-stone-900 transition">
+                  2. 136客家小館
+                </button>
+                <button onclick="selectLunch('L3')" id="lunch-tab-L3" class="lunch-tab py-2 px-2 rounded-lg text-xs sm:text-sm font-medium text-stone-600 hover:text-stone-900 transition">
+                  3. 老街輕食點心
+                </button>
+              </div>
+
+              <!-- Lunch Content L1 -->
+              <div id="lunch-content-L1" class="lunch-content mt-2.5 bg-amber-50/60 border border-amber-200/80 rounded-xl p-3.5">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-stone-900 text-base">鄉之味-老地方餐廳（中興路5號）</span>
+                  <span class="text-xs bg-emerald-100 text-emerald-800 font-semibold px-2 py-0.5 rounded">附專屬停車場</span>
+                </div>
+                <p class="text-xs text-stone-500 mt-0.5">⏰ 11:00–14:00（週一公休）｜📞 049-2720288</p>
+                <p class="text-sm text-stone-700 mt-1.5 leading-relaxed">
+                  位於國姓老街入口處，中式木造古典環境舒適。主打<strong>不死鹹、不油膩</strong>的精緻客家私房菜（招牌筍乾東坡肉、鹹蛋苦瓜、客家小炒），可單點無低消，長輩接受度極高！
+                </p>
+                <a href="https://www.google.com/maps/search/?api=1&query=國姓鄉之味小吃部" target="_blank" rel="noopener"
+                   class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-stone-800 hover:bg-stone-900 text-white text-sm font-semibold py-2.5 px-4 rounded-xl shadow-sm transition">
+                  <span>🍴 導航至鄉之味-老地方餐廳</span>
+                </a>
+              </div>
+
+              <!-- Lunch Content L2 -->
+              <div id="lunch-content-L2" class="lunch-content hidden mt-2.5 bg-amber-50/60 border border-amber-200/80 rounded-xl p-3.5">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-stone-900 text-base">136公路客家小館（台14線旁）</span>
+                  <span class="text-xs bg-emerald-100 text-emerald-800 font-semibold px-2 py-0.5 rounded">屋後私人停車場</span>
+                </div>
+                <p class="text-xs text-stone-500 mt-0.5">⏰ 11:30–14:30（週二公休）｜📞 049-2720628</p>
+                <p class="text-sm text-stone-700 mt-1.5 leading-relaxed">
+                  就在<strong>台14線中潭公路旁</strong>（中正路一段69號，近九二咖啡故事館），完全免繞進市區！懷舊木造古風小館，平價道地的客家小炒、鐵板料理與當季山野菜口碑極佳。
+                </p>
+                <a href="https://www.google.com/maps/search/?api=1&query=國姓136公路客家小館" target="_blank" rel="noopener"
+                   class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-stone-800 hover:bg-stone-900 text-white text-sm font-semibold py-2.5 px-4 rounded-xl shadow-sm transition">
+                  <span>🍴 導航至136公路客家小館</span>
+                </a>
+              </div>
+
+              <!-- Lunch Content L3 -->
+              <div id="lunch-content-L3" class="lunch-content hidden mt-2.5 bg-amber-50/60 border border-amber-200/80 rounded-xl p-3.5">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-stone-900 text-base">國姓老街客家點心（微餓首選）</span>
+                  <span class="text-xs bg-amber-100 text-amber-800 font-semibold px-2 py-0.5 rounded">留肚子喝下午茶</span>
+                </div>
+                <p class="text-sm text-stone-700 mt-1.5 leading-relaxed">
+                  因為早上 10 點才剛吃飽北山米苔目，若中午全家還不太餓，可順道在國姓老街（國姓公有市場周邊）買道地的<strong>客家菜包、艾草粿（草仔粿）</strong>，留點肚子給下午的咖啡與甜點！
+                </p>
+                <a href="https://www.google.com/maps/search/?api=1&query=國姓老街形象商圈" target="_blank" rel="noopener"
+                   class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-stone-800 hover:bg-stone-900 text-white text-sm font-semibold py-2.5 px-4 rounded-xl shadow-sm transition">
+                  <span>🥟 導航至國姓老街商圈</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -485,6 +534,20 @@
   </div>
 
   <script>
+    function selectLunch(option) {
+      ['L1', 'L2', 'L3'].forEach(key => {
+        const tab = document.getElementById('lunch-tab-' + key);
+        const content = document.getElementById('lunch-content-' + key);
+        if (key === option) {
+          tab.className = 'lunch-tab py-2 px-2 rounded-lg text-xs sm:text-sm font-bold bg-amber-700 text-white shadow-sm transition';
+          content.classList.remove('hidden');
+        } else {
+          tab.className = 'lunch-tab py-2 px-2 rounded-lg text-xs sm:text-sm font-medium text-stone-600 hover:text-stone-900 transition';
+          content.classList.add('hidden');
+        }
+      });
+    }
+
     function selectCoffee(option) {
       ['A', 'B', 'C'].forEach(key => {
         const tab = document.getElementById('coffee-tab-' + key);
@@ -544,7 +607,7 @@
     }
 
     function shareItinerary() {
-      const summaryText = `🍁【11月南投國姓家庭一日遊】\n🚗 09:00 草屯出發（走國6下北山或台14線）\n🍜 09:30 北山米苔目＋對面帶皮檸檬汁\n⛰️ 10:40 九份二山地震園區（傾斜屋/震爆點/堰塞湖）\n🙏 12:30 國姓元寶土地公廟（147縣道旁好停車）\n☕ 14:00 國姓喝咖啡（九二咖啡故事館 / 山間良物 / 鐵帽咖啡）\n🌉 15:45 橋聳雲天綠雕園區散步\n🍲 17:15 走台14線回草屯吃晚餐（春水岸 / 湫禾壽喜燒 / 田庄味土雞），吃完5分鐘輕鬆到家！`;
+      const summaryText = `🍁【11月南投國姓家庭一日遊】\n🚗 09:00 草屯出發（走國6下北山或台14線）\n🍜 09:30 北山米苔目＋對面帶皮檸檬汁\n⛰️ 10:40 九份二山地震園區（傾斜屋/震爆點/堰塞湖）\n🙏 12:30 國姓元寶土地公廟（147縣道旁好停車）\n🍴 13:00 國姓午餐（鄉之味老地方餐廳 / 136公路客家小館 / 老街客家菜包）\n☕ 14:15 國姓喝咖啡（九二咖啡故事館 / 山間良物 / 鐵帽咖啡）\n🌉 15:45 橋聳雲天綠雕園區散步\n🍲 17:15 走台14線回草屯吃晚餐（春水岸 / 湫禾壽喜燒 / 田庄味土雞），吃完5分鐘輕鬆到家！`;
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(summaryText).then(() => {
           const btnText = document.getElementById('share-btn-text');
