@@ -238,10 +238,10 @@
                   1. 鄉之味餐廳
                 </button>
                 <button onclick="selectLunch('L2')" id="lunch-tab-L2" class="lunch-tab py-2 px-2 rounded-lg text-xs sm:text-sm font-medium text-stone-600 hover:text-stone-900 transition">
-                  2. 136客家小館
+                  2. 國姓私房餐廳
                 </button>
                 <button onclick="selectLunch('L3')" id="lunch-tab-L3" class="lunch-tab py-2 px-2 rounded-lg text-xs sm:text-sm font-medium text-stone-600 hover:text-stone-900 transition">
-                  3. 老街輕食點心
+                  3. 老街小吃點心
                 </button>
               </div>
 
@@ -264,31 +264,32 @@
               <!-- Lunch Content L2 -->
               <div id="lunch-content-L2" class="lunch-content hidden mt-2.5 bg-amber-50/60 border border-amber-200/80 rounded-xl p-3.5">
                 <div class="flex items-center justify-between">
-                  <span class="font-bold text-stone-900 text-base">136公路客家小館（台14線旁）</span>
-                  <span class="text-xs bg-emerald-100 text-emerald-800 font-semibold px-2 py-0.5 rounded">屋後私人停車場</span>
+                  <span class="font-bold text-stone-900 text-base">國姓私房客家美食餐廳（北原路）</span>
+                  <span class="text-xs bg-emerald-100 text-emerald-800 font-semibold px-2 py-0.5 rounded">超大免費停車場</span>
                 </div>
-                <p class="text-xs text-stone-500 mt-0.5">⏰ 11:30–14:30（週二公休）｜📞 049-2720628</p>
+                <p class="text-xs text-stone-500 mt-0.5">⏰ 11:00–14:00（假日至14:30）｜📞 049-2461300</p>
                 <p class="text-sm text-stone-700 mt-1.5 leading-relaxed">
-                  就在<strong>台14線中潭公路旁</strong>（中正路一段69號，近九二咖啡故事館），完全免繞進市區！懷舊木造古風小館，平價道地的客家小炒、鐵板料理與當季山野菜口碑極佳。
+                  國姓人氣最高的庭園客家合菜名店（北原路30-10號），戶外有綠意梅園與休憩空間，環境寬敞清幽！必點<strong>招牌香酥芙蓉豆腐、梅干扣肉、梅汁涼拌過貓、福菜肉片湯</strong>，單點或小家庭合菜皆宜。
                 </p>
-                <a href="https://www.google.com/maps/search/?api=1&query=國姓136公路客家小館" target="_blank" rel="noopener"
+                <a href="https://www.google.com/maps/search/?api=1&query=國姓私房客家美食餐廳" target="_blank" rel="noopener"
                    class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-stone-800 hover:bg-stone-900 text-white text-sm font-semibold py-2.5 px-4 rounded-xl shadow-sm transition">
-                  <span>🍴 導航至136公路客家小館</span>
+                  <span>🍴 導航至國姓私房客家美食餐廳</span>
                 </a>
               </div>
 
               <!-- Lunch Content L3 -->
               <div id="lunch-content-L3" class="lunch-content hidden mt-2.5 bg-amber-50/60 border border-amber-200/80 rounded-xl p-3.5">
                 <div class="flex items-center justify-between">
-                  <span class="font-bold text-stone-900 text-base">國姓老街客家點心（微餓首選）</span>
-                  <span class="text-xs bg-amber-100 text-amber-800 font-semibold px-2 py-0.5 rounded">留肚子喝下午茶</span>
+                  <span class="font-bold text-stone-900 text-base">國姓老街：阿成小吃 / 客家點心</span>
+                  <span class="text-xs bg-amber-100 text-amber-800 font-semibold px-2 py-0.5 rounded">微餓銅板美食</span>
                 </div>
+                <p class="text-xs text-stone-500 mt-0.5">📍 國姓中興路241號（鄉公所對面有免費停車場）</p>
                 <p class="text-sm text-stone-700 mt-1.5 leading-relaxed">
-                  因為早上 10 點才剛吃飽北山米苔目，若中午全家還不太餓，可順道在國姓老街（國姓公有市場周邊）買道地的<strong>客家菜包、艾草粿（草仔粿）</strong>，留點肚子給下午的咖啡與甜點！
+                  因為早上 10 點剛吃飽米苔目，若中午只想簡單吃：可至國姓老街吃超人氣<strong>「阿成小吃」</strong>（古早味意麵＋竹篩黑白切滷味，週日一休），或在老街買<strong>客家菜包、艾草粿</strong>，留肚子給下午茶！
                 </p>
-                <a href="https://www.google.com/maps/search/?api=1&query=國姓老街形象商圈" target="_blank" rel="noopener"
+                <a href="https://www.google.com/maps/search/?api=1&query=國姓阿成小吃" target="_blank" rel="noopener"
                    class="mt-3 w-full inline-flex items-center justify-center gap-1.5 bg-stone-800 hover:bg-stone-900 text-white text-sm font-semibold py-2.5 px-4 rounded-xl shadow-sm transition">
-                  <span>🥟 導航至國姓老街商圈</span>
+                  <span>🥟 導航至國姓老街（阿成小吃）</span>
                 </a>
               </div>
             </div>
@@ -607,7 +608,7 @@
     }
 
     function shareItinerary() {
-      const summaryText = `🍁【11月南投國姓家庭一日遊】\n🚗 09:00 草屯出發（走國6下北山或台14線）\n🍜 09:30 北山米苔目＋對面帶皮檸檬汁\n⛰️ 10:40 九份二山地震園區（傾斜屋/震爆點/堰塞湖）\n🙏 12:30 國姓元寶土地公廟（147縣道旁好停車）\n🍴 13:00 國姓午餐（鄉之味老地方餐廳 / 136公路客家小館 / 老街客家菜包）\n☕ 14:15 國姓喝咖啡（九二咖啡故事館 / 山間良物 / 鐵帽咖啡）\n🌉 15:45 橋聳雲天綠雕園區散步\n🍲 17:15 走台14線回草屯吃晚餐（春水岸 / 湫禾壽喜燒 / 田庄味土雞），吃完5分鐘輕鬆到家！`;
+      const summaryText = `🍁【11月南投國姓家庭一日遊】\n🚗 09:00 草屯出發（走國6下北山或台14線）\n🍜 09:30 北山米苔目＋對面帶皮檸檬汁\n⛰️ 10:40 九份二山地震園區（傾斜屋/震爆點/堰塞湖）\n🙏 12:30 國姓元寶土地公廟（147縣道旁好停車）\n🍴 13:00 國姓午餐（鄉之味老地方餐廳 / 國姓私房客家美食餐廳 / 老街阿成小吃＆客家菜包）\n☕ 14:15 國姓喝咖啡（九二咖啡故事館 / 山間良物 / 鐵帽咖啡）\n🌉 15:45 橋聳雲天綠雕園區散步\n🍲 17:15 走台14線回草屯吃晚餐（春水岸 / 湫禾壽喜燒 / 田庄味土雞），吃完5分鐘輕鬆到家！`;
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(summaryText).then(() => {
           const btnText = document.getElementById('share-btn-text');
